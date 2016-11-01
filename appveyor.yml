@@ -4,4 +4,4 @@ build_script:
     - md build
     - cd build
     - cmake -G "Visual Studio 14 2015 Win64" .\binaryClock\source\
-    - cmake --build .\binaryClock\source\ --config Release 
+    - cmake --build . --config Release 
