@@ -7,7 +7,7 @@
 //Number of pins used 
 #define CLOCK_PINS_NUMBER 5
 
-byte clockPins[] = { 9, 10, 11, 12, 13 };
+byte clockPins[] = { 8, 9, 10, 11, 12 };
 
 Charlieplex charlieplexObject = Charlieplex(clockPins, CLOCK_PINS_NUMBER);
 
